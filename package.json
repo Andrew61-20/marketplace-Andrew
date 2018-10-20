@@ -1,0 +1,32 @@
+{
+  "name": "marketplace-andrew",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "node --inspect index.js"
+  },
+  "keywords": [],
+  "author": "Andrew",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew61-20/marketplace-Andrew.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andrew61-20/marketplace-Andrew/issues"
+  },
+  "homepage": "https://github.com/Andrew61-20/marketplace-Andrew#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mkdirp": "^0.5.1",
+    "mongoose": "^5.3.3",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
